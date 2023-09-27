@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Slider Using HTML & CSS</title>
+</head>
+<body>
+    <div class="slider">
+        <div class="slider__wrapper">
+            <input type="radio" class="slider__open" id="slider-1" name="slider" aria-hidden="true" checked hidden>
+            <div class="slider__item">
+                <img src="image/1.jpg" alt="">
+            </div>
+            <input type="radio" class="slider__open" id="slider-2" name="slider" aria-hidden="true" hidden>
+            <div class="slider__item">
+                <img src="image/2.jpg" alt="">
+            </div>
+            <input type="radio" class="slider__open" id="slider-3" name="slider" aria-hidden="true" hidden>
+            <div class="slider__item">
+                <img src="image/3.jpg" alt="">
+            </div>
+            <label for="slider-3" class="slider__control prev control-1">‹</label>
+            <label for="slider-2" class="slider__control next control-1">›</label>
+            <label for="slider-1" class="slider__control prev control-2">‹</label>
+            <label for="slider-3" class="slider__control next control-2">›</label>
+            <label for="slider-2" class="slider__control prev control-3">‹</label>
+            <label for="slider-1" class="slider__control next control-3">›</label>
+            <ul class="slider__indicators">
+                <li>
+                    <label for="slider-1" class="slider__bullet">•</label>
+                </li>
+                <li>
+                    <label for="slider-2" class="slider__bullet">•</label>
+                </li>
+                <li>
+                    <label for="slider-3" class="slider__bullet">•</label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
